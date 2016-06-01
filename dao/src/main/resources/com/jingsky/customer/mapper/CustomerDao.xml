@@ -46,7 +46,7 @@
         </where>
     </sql>
     
-    <resultMap id="returnEntity" type="Customer">
+    <resultMap id="returnEntity" type="com.jingsky.customer.entity.Customer">
         <id column="C3" javaType="String" jdbcType="VARCHAR" property="name"/>
         <result column="C1" javaType="String" jdbcType="VARCHAR" property="password"/>
         <result column="C2" javaType="Integer" jdbcType="INTEGER" property="age"/>
@@ -77,7 +77,7 @@
     	</foreach>  
     </insert>  
     
-    <insert id="insert" parameterType="Customer" useGeneratedKeys="true" keyProperty="name" >
+    <insert id="insert" parameterType="com.jingsky.customer.entity.Customer" useGeneratedKeys="true" keyProperty="name" >
         insert into Customer 
         (
             <trim prefix="" prefixOverrides=",">
@@ -108,16 +108,16 @@
         <include refid="whereCase"/>
     </select>
     
-    <update id="updateByEntity" parameterType="Customer">
+    <update id="updateByEntity" parameterType="com.jingsky.customer.entity.Customer">
         <include refid="updateSql"/>
         <include refid="smallWhereCase"/>
     </update>
         
-    <delete id="removeByEntity" parameterType="Customer">
+    <delete id="removeByEntity" parameterType="com.jingsky.customer.entity.Customer">
         delete T1 from Customer T1 <include refid="smallWhereCase"/>
     </delete>
     
-    <select id="findByEntity" parameterType="Customer" resultMap="returnEntity">
+    <select id="findByEntity" parameterType="com.jingsky.customer.entity.Customer" resultMap="returnEntity">
         select <include refid="colList" /> from Customer T1
 		<include refid="joinTables"/>
         <include refid="smallWhereCase"/>
@@ -125,7 +125,7 @@
         <if test="limitStart != null and limitEnd != null">limit #{limitStart}, #{limitEnd}</if>
     </select>
     
-    <select id="countByEntity" parameterType="Customer" resultType="long">
+    <select id="countByEntity" parameterType="com.jingsky.customer.entity.Customer" resultType="long">
         select count(1) from Customer T1
 		<include refid="joinTables"/>
         <include refid="smallWhereCase"/>

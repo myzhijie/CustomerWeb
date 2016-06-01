@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+              http://www.springframework.org/schema/beans/spring-beans.xsd
+              http://www.springframework.org/schema/context
+               http://www.springframework.org/schema/context/spring-context-3.0.xsd
+              http://code.alibabatech.com/schema/dubbo
+              http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <dubbo:application name="${dubbo.application.name}"/>
+
+    <!--zookeeper cluster for online publishing -->
+    <!--<dubbo:registry protocol="zookeeper" address="${dubbo.zookeeper.address}"/>-->
+    <dubbo:registry address="N/A" />
+
+    <!--Use multicast broadcast service address registration center exposed.Local can be called directly to the test. -->
+    <dubbo:protocol name="dubbo" port="${dubbo.application.port}" host="localhost"/>
+
+    <!--After starting in the spring container start,Not retry-->
+    <dubbo:provider delay="-1" timeout="1200000" retries="0"/>
+
+    <!-- Service interface declaration to be exposed -->
+    <dubbo:service interface="com.jingsky.customer.iservice.ICustomerService" ref="customerService"/>
+
+</beans>
