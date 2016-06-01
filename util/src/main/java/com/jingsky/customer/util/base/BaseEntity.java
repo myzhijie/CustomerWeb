@@ -24,7 +24,7 @@ public abstract class BaseEntity<PK, T> extends ObjectSupport implements Seriali
 
     private static final long serialVersionUID = 1L;
 
-    protected PK id;
+    //protected PK id;
     @JsonIgnore
     protected boolean sqldecode=true;
     @JsonIgnore
@@ -94,12 +94,12 @@ public abstract class BaseEntity<PK, T> extends ObjectSupport implements Seriali
         this.orderBy = orderBy;
     }
 
-    public PK getId() {
-        return id;
-    }
-
-    public void setId(PK id) {
-        this.id = id;
-    }
+//    public PK getId() {
+//        return id;
+//    }
+//
+//    public void setId(PK id) {
+//        this.id = id;
+//    }
 
 }

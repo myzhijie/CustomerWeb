@@ -23,9 +23,9 @@ public class Customer extends BaseEntity<Long,Customer> {
     public Customer(){}
     
     
-    public Customer(Long id){
-    	this.id=id;
-    }
+//    public Customer(Long id){
+//    	this.id=id;
+//    }
     
     public String getPassword() {
         return this.password;
