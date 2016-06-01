@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>   
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.jingsky.customer.dao.CustomerDao">
+  	
+	<!--The user defined SQL!-->
+  	
+  	
+  	<!--The user defined SQL!-->
+  	
+  	<sql id="updateSql">
+		update Customer T1 set 
+            <trim prefix="" prefixOverrides=",">
+            	,password = #{password},age = #{age}
+            </trim>
+    </sql>
+  	
+  	<sql id="joinTables">
+    </sql>
+  	
+    <sql id="colList">
+        <trim prefix="" prefixOverrides=",">
+            , T1.password AS C1
+            , T1.age AS C2
+            , T1.name AS C3
+        </trim>
+    </sql>
+    
+    <sql id="whereCase">
+    	<where>
+            <if test="name != null">and T1.name = #{name}</if>
+            <if test="nameLK != null">and T1.name LIKE #{nameLK}</if>
+            <if test="password != null">and T1.password = #{password}</if>
+            <if test="passwordLK != null">and T1.password LIKE #{passwordLK}</if>
+            <if test="age != null">and T1.age = #{age}</if>
+            <if test="ageGT != null">and T1.age > #{ageGT}</if>
+            <if test="ageLT != null">and #{ageLT} > T1.age</if>
+        </where>
+    </sql>
+    
+     <sql id="smallWhereCase">
+    	<where>
+            <if test="name != null">and T1.name = #{name}</if>
+            <if test="password != null">and T1.password = #{password}</if>
+            <if test="age != null">and T1.age = #{age}</if>
+        </where>
+    </sql>
+    
+    <resultMap id="returnEntity" type="Customer">
+        <id column="C3" javaType="String" jdbcType="VARCHAR" property="name"/>
+        <result column="C1" javaType="String" jdbcType="VARCHAR" property="password"/>
+        <result column="C2" javaType="Integer" jdbcType="INTEGER" property="age"/>
+    </resultMap>
+    
+    <select id="get" parameterType="long" resultMap="returnEntity">
+        select * from Customer T1 where  T1.name = #{name} and  true
+    </select>
+    
+    <update id="update" parameterType="map">
+        <include refid="updateSql"/>
+        <include refid="whereCase"/>
+    </update>
+    
+    <insert id="insertBatch"  parameterType="list">
+     	insert into Customer 
+     	(
+            <trim prefix="" prefixOverrides=",">
+            	,password,age
+            </trim>
+        ) values 
+    	<foreach collection="list" item="item" index="index" separator=",">  
+	    (
+            <trim prefix="" prefixOverrides=",">
+                 ,#{password} ,#{age}
+            </trim>
+	     )
+    	</foreach>  
+    </insert>  
+    
+    <insert id="insert" parameterType="Customer" useGeneratedKeys="true" keyProperty="name" >
+        insert into Customer 
+        (
+            <trim prefix="" prefixOverrides=",">
+            	,password,age
+            </trim>
+        )values(
+            <trim prefix="" prefixOverrides=",">
+            	,#{password},#{age}
+            </trim>
+        )
+    </insert>
+    
+    <delete id="remove" parameterType="map">
+        delete T1 from Customer T1 <include refid="whereCase"/>
+    </delete>
+    
+    <select id="find" parameterType="map" resultMap="returnEntity">
+        select <include refid="colList" /> from Customer T1
+		<include refid="joinTables"/>
+		<include refid="whereCase"/>
+        <if test="orderBy != null">order by #{orderBy}</if>
+        <if test="limitStart != null and limitEnd != null">limit #{limitStart}, #{limitEnd}</if>
+    </select>
+    
+    <select id="count" parameterType="map" resultType="long">
+        select count(1) from Customer T1
+		<include refid="joinTables"/>
+        <include refid="whereCase"/>
+    </select>
+    
+    <update id="updateByEntity" parameterType="Customer">
+        <include refid="updateSql"/>
+        <include refid="smallWhereCase"/>
+    </update>
+        
+    <delete id="removeByEntity" parameterType="Customer">
+        delete T1 from Customer T1 <include refid="smallWhereCase"/>
+    </delete>
+    
+    <select id="findByEntity" parameterType="Customer" resultMap="returnEntity">
+        select <include refid="colList" /> from Customer T1
+		<include refid="joinTables"/>
+        <include refid="smallWhereCase"/>
+        <if test="orderBy != null">order by #{orderBy}</if>
+        <if test="limitStart != null and limitEnd != null">limit #{limitStart}, #{limitEnd}</if>
+    </select>
+    
+    <select id="countByEntity" parameterType="Customer" resultType="long">
+        select count(1) from Customer T1
+		<include refid="joinTables"/>
+        <include refid="smallWhereCase"/>
+    </select>
+    
+    
+</mapper>
