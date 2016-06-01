@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletRequest;
 public class CustomerController {
 
 	private static final Logger logger=Logger.getLogger(CustomerController.class);
-	
+
 	@Autowired
 	private ICustomerService customerService;
 
@@ -80,8 +80,8 @@ public class CustomerController {
 
 	/**
 	 * register
-     * @return
-     */
+	 * @return
+	 */
 	@RequestMapping(value = "/register")
 	@ResponseBody
 	public Object register(@RequestBody Customer customer) {

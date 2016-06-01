@@ -41,8 +41,6 @@
      <sql id="smallWhereCase">
     	<where>
             <if test="name != null">and T1.name = #{name}</if>
-            <if test="password != null">and T1.password = #{password}</if>
-            <if test="age != null">and T1.age = #{age}</if>
         </where>
     </sql>
     
