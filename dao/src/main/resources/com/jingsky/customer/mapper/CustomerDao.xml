@@ -65,13 +65,13 @@
      	insert into Customer 
      	(
             <trim prefix="" prefixOverrides=",">
-            	,password,age
+            	,name,password,age
             </trim>
         ) values 
     	<foreach collection="list" item="item" index="index" separator=",">  
 	    (
             <trim prefix="" prefixOverrides=",">
-                 ,#{password} ,#{age}
+                ,#{name},#{password} ,#{age}
             </trim>
 	     )
     	</foreach>  
@@ -81,11 +81,11 @@
         insert into Customer 
         (
             <trim prefix="" prefixOverrides=",">
-            	,password,age
+                ,`name`,password,age
             </trim>
         )values(
             <trim prefix="" prefixOverrides=",">
-            	,#{password},#{age}
+                ,#{name},#{password},#{age}
             </trim>
         )
     </insert>
