@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Mon Oct 31 08:53:07 CST 2016
+org.eclipse.jst.jee.server\:/binary\:/Users/jing/.m2/repository/org/springframework/spring-web/4.2.0.RELEASE/spring-web-4.2.0.RELEASE.jar=WEB-INF/lib/spring-web-4.2.0.RELEASE.jar
+org.eclipse.jst.j2ee.server\:iservice=WEB-INF/lib/iservice-1.0-SNAPSHOT.jar

@@ -1,0 +1,217 @@
+2016-10-31 08:44:22,125 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: CustomerWeb:util:1.0-SNAPSHOT @ /Users/jing/idea_workspace/mine/CustomerWeb/util/pom.xml.
+2016-10-31 08:44:22,505 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CustomerWeb:iservice:1.0-SNAPSHOT @ /Users/jing/idea_workspace/mine/CustomerWeb/iservice/pom.xml.
+2016-10-31 08:44:22,585 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: CustomerWeb:service:1.0-SNAPSHOT @ /Users/jing/idea_workspace/mine/CustomerWeb/service/pom.xml.
+2016-10-31 08:44:22,706 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: CustomerWeb:dao:1.0-SNAPSHOT @ /Users/jing/idea_workspace/mine/CustomerWeb/dao/pom.xml.
+2016-10-31 08:44:22,729 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: CustomerWeb:web:1.0-SNAPSHOT @ /Users/jing/idea_workspace/mine/CustomerWeb/web/pom.xml.
+2016-10-31 08:44:24,204 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /util/src/main/java
+2016-10-31 08:44:24,205 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /util/src/test/java
+2016-10-31 08:44:24,900 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dao/src/main/java
+2016-10-31 08:44:24,900 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dao/src/main/resources
+2016-10-31 08:44:24,901 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dao/src/test/java
+2016-10-31 08:44:25,178 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /iservice/src/main/java
+2016-10-31 08:44:25,178 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /iservice/src/test/java
+2016-10-31 08:44:25,279 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /web/src/main/java
+2016-10-31 08:44:25,280 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /web/src/main/resources
+2016-10-31 08:44:25,280 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /web/src/test/java
+2016-10-31 08:44:25,566 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /service/src/main/java
+2016-10-31 08:44:25,567 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /service/src/main/resources
+2016-10-31 08:44:25,567 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /service/src/test/java
+2016-10-31 08:44:25,733 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 5 project(s) in 5 sec
+2016-10-31 08:44:26,926 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 08:44:26,927 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/main/resources
+2016-10-31 08:44:26,929 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 08:44:26,929 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/test/resources
+2016-10-31 08:44:27,074 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 08:44:27,079 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-31 08:44:27,090 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 08:44:27,090 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/dao/src/test/resources
+2016-10-31 08:44:27,193 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 08:44:27,193 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/iservice/src/main/resources
+2016-10-31 08:44:27,207 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 08:44:27,207 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/iservice/src/test/resources
+2016-10-31 08:44:27,579 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 08:44:27,580 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-10-31 08:44:27,585 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 08:44:27,585 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/service/src/test/resources
+2016-10-31 08:44:27,732 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 08:44:27,732 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2016-10-31 08:44:27,736 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 08:44:27,736 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/web/src/test/resources
+2016-10-31 08:52:00,465 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 08:52:00,466 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/main/resources
+2016-10-31 08:52:00,467 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 08:52:00,467 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/test/resources
+2016-10-31 08:52:00,474 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 08:52:00,476 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-31 08:52:00,477 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 08:52:00,477 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/dao/src/test/resources
+2016-10-31 08:52:00,485 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 08:52:00,485 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/iservice/src/main/resources
+2016-10-31 08:52:00,487 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 08:52:00,487 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/iservice/src/test/resources
+2016-10-31 08:52:00,495 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 08:52:00,495 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-31 08:52:00,496 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 08:52:00,496 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/service/src/test/resources
+2016-10-31 08:52:00,503 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 08:52:00,503 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-31 08:52:00,504 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 08:52:00,504 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/web/src/test/resources
+2016-10-31 09:46:59,294 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:46:59,294 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/main/resources
+2016-10-31 09:46:59,295 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:46:59,295 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/test/resources
+2016-10-31 09:47:23,769 [Worker-54] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: CustomerWeb:util:1.0-SNAPSHOT @ /Users/jing/idea_workspace/mine/CustomerWeb/util/pom.xml.
+2016-10-31 09:47:23,833 [Worker-54] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: CustomerWeb:web:1.0-SNAPSHOT @ /Users/jing/idea_workspace/mine/CustomerWeb/web/pom.xml.
+2016-10-31 09:47:23,868 [Worker-54] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CustomerWeb:iservice:1.0-SNAPSHOT @ /Users/jing/idea_workspace/mine/CustomerWeb/iservice/pom.xml.
+2016-10-31 09:47:23,883 [Worker-54] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: CustomerWeb:service:1.0-SNAPSHOT @ /Users/jing/idea_workspace/mine/CustomerWeb/service/pom.xml.
+2016-10-31 09:47:23,908 [Worker-54] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: CustomerWeb:dao:1.0-SNAPSHOT @ /Users/jing/idea_workspace/mine/CustomerWeb/dao/pom.xml.
+2016-10-31 09:47:24,363 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:47:24,363 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/main/resources
+2016-10-31 09:47:24,364 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:47:24,364 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/test/resources
+2016-10-31 09:47:24,365 [Worker-54] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of util
+2016-10-31 09:47:24,365 [Worker-54] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for util
+2016-10-31 09:47:24,374 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:47:24,460 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:47:24,462 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-31 09:47:24,463 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:47:24,464 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/dao/src/test/resources
+2016-10-31 09:47:24,530 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:47:24,530 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/iservice/src/main/resources
+2016-10-31 09:47:24,530 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:47:24,530 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/iservice/src/test/resources
+2016-10-31 09:47:24,639 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:47:24,639 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2016-10-31 09:47:24,643 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:47:24,643 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/service/src/test/resources
+2016-10-31 09:47:25,063 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:47:25,063 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/main/resources
+2016-10-31 09:47:25,065 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:47:25,065 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/test/resources
+2016-10-31 09:47:25,238 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:47:25,239 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2016-10-31 09:47:25,242 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:47:25,242 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/web/src/test/resources
+2016-10-31 09:47:26,483 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:47:26,483 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/main/resources
+2016-10-31 09:47:26,484 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:47:26,484 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/test/resources
+2016-10-31 09:47:56,586 [Worker-60] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CustomerWeb:util:1.0-SNAPSHOT @ /Users/jing/idea_workspace/mine/CustomerWeb/util/pom.xml.
+2016-10-31 09:47:56,797 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:47:56,797 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/main/resources
+2016-10-31 09:47:56,798 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:47:56,798 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/test/resources
+2016-10-31 09:47:57,974 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:47:57,974 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/main/resources
+2016-10-31 09:47:57,975 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:47:57,975 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/test/resources
+2016-10-31 09:49:30,800 [Worker-54] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CustomerWeb:dao:1.0-SNAPSHOT @ /Users/jing/idea_workspace/mine/CustomerWeb/dao/pom.xml.
+2016-10-31 09:49:30,900 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:49:30,900 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-31 09:49:30,901 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:49:30,901 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/dao/src/test/resources
+2016-10-31 09:51:20,956 [Worker-58] ERROR o.e.m.c.u.i.actions.OpenPomAction - Could not resolve artifact ${project.groupId}:util:pom:1.0-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact ${project.groupId}:util:pom:1.0-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openPomEditor(OpenPomAction.java:243) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openEditor(OpenPomAction.java:218) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.xml.PomHyperlinkDetector$6$1.run(PomHyperlinkDetector.java:616) [org.eclipse.m2e.editor.xml_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2016-10-31 09:52:55,465 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:52:55,465 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/main/resources
+2016-10-31 09:52:55,465 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:52:55,465 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/test/resources
+2016-10-31 09:52:56,498 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:52:56,498 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/main/resources
+2016-10-31 09:52:56,499 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:52:56,499 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/test/resources
+2016-10-31 09:56:13,608 [Worker-62] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CustomerWeb:util:1.0-SNAPSHOT @ /Users/jing/idea_workspace/mine/CustomerWeb/util/pom.xml.
+2016-10-31 09:56:13,682 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:56:13,682 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/main/resources
+2016-10-31 09:56:13,682 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:56:13,683 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/test/resources
+2016-10-31 09:56:14,883 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:56:14,884 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/main/resources
+2016-10-31 09:56:14,884 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:56:14,884 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/test/resources
+2016-10-31 09:56:22,538 [Worker-64] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CustomerWeb:util:1.0-SNAPSHOT @ /Users/jing/idea_workspace/mine/CustomerWeb/util/pom.xml.
+2016-10-31 09:56:22,614 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:56:22,614 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/main/resources
+2016-10-31 09:56:22,615 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:56:22,615 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/test/resources
+2016-10-31 09:56:26,468 [Worker-51] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CustomerWeb:util:1.0-SNAPSHOT @ /Users/jing/idea_workspace/mine/CustomerWeb/util/pom.xml.
+2016-10-31 09:56:26,524 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:56:26,524 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/main/resources
+2016-10-31 09:56:26,525 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:56:26,525 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/test/resources
+2016-10-31 09:56:57,022 [Worker-66] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CustomerWeb:util:1.0-SNAPSHOT @ /Users/jing/idea_workspace/mine/CustomerWeb/util/pom.xml.
+2016-10-31 09:56:57,086 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:56:57,086 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/main/resources
+2016-10-31 09:56:57,087 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:56:57,087 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/test/resources
+2016-10-31 09:57:12,405 [Worker-67] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CustomerWeb:dao:1.0-SNAPSHOT @ /Users/jing/idea_workspace/mine/CustomerWeb/dao/pom.xml.
+2016-10-31 09:57:12,459 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:57:12,460 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-31 09:57:12,460 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:57:12,461 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/dao/src/test/resources
+2016-10-31 09:58:21,181 [Worker-62] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CustomerWeb:dao:1.0-SNAPSHOT @ /Users/jing/idea_workspace/mine/CustomerWeb/dao/pom.xml.
+2016-10-31 09:58:21,242 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:58:21,242 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-31 09:58:21,243 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:58:21,243 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/dao/src/test/resources
+2016-10-31 09:59:03,067 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:59:03,067 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-31 09:59:03,068 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:59:03,068 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/service/src/test/resources
+2016-10-31 09:59:09,611 [Worker-62] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CustomerWeb:service:1.0-SNAPSHOT @ /Users/jing/idea_workspace/mine/CustomerWeb/service/pom.xml.
+2016-10-31 09:59:09,701 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:59:09,701 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-31 09:59:09,702 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:59:09,702 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/service/src/test/resources
+2016-10-31 09:59:10,872 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:59:10,873 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-31 09:59:10,873 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:59:10,873 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/service/src/test/resources
+2016-10-31 09:59:11,906 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:59:11,906 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-31 09:59:11,907 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 09:59:11,907 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/web/src/test/resources
+2016-10-31 10:14:02,818 [Worker-71] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: CustomerWeb:web:1.0-SNAPSHOT @ /Users/jing/idea_workspace/mine/CustomerWeb/web/pom.xml.
+2016-10-31 10:14:03,186 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 10:14:03,186 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-31 10:14:03,187 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 10:14:03,187 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/web/src/test/resources
+2016-10-31 10:14:03,187 [Worker-71] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of web
+2016-10-31 10:14:03,187 [Worker-71] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for web
+2016-10-31 10:14:03,189 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 10:14:05,315 [Worker-71] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: CustomerWeb:web:1.0-SNAPSHOT @ /Users/jing/idea_workspace/mine/CustomerWeb/web/pom.xml.
+2016-10-31 10:14:05,656 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 10:14:05,656 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-10-31 10:14:05,657 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 10:14:05,657 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/web/src/test/resources
+2016-10-31 10:14:05,657 [Worker-71] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of web
+2016-10-31 10:14:05,657 [Worker-71] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for web
+2016-10-31 10:14:05,659 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 10:14:06,980 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 10:14:06,980 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2016-10-31 10:14:06,982 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 10:14:06,982 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/web/src/test/resources
+2016-10-31 10:14:07,999 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 10:14:07,999 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/main/resources
+2016-10-31 10:14:08,000 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 10:14:08,000 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/util/src/test/resources
+2016-10-31 10:14:08,035 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 10:14:08,036 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-10-31 10:14:08,037 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 10:14:08,037 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/dao/src/test/resources
+2016-10-31 10:14:08,079 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 10:14:08,079 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/iservice/src/main/resources
+2016-10-31 10:14:08,080 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-31 10:14:08,080 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/jing/idea_workspace/mine/CustomerWeb/iservice/src/test/resources

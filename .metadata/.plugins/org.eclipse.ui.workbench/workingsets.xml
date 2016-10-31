@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1477874660631_0" label="CustomerWeb" name="CustomerWeb">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/util" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/iservice" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/dao" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/web" type="4"/>
+</workingSet>
+</workingSetManager>

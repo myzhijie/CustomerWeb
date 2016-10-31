@@ -1,0 +1,9 @@
+INDEX VERSION 1.3+/Users/jing/idea_workspace/mine/CustomerWeb/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3315781919.index
+2056331895.index
+2785708987.index
+1720108708.index
+924853671.index
+965077567.index
+865960247.index
+4271092983.index

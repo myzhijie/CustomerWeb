@@ -48,7 +48,7 @@
               <maxIdleTime>30000</maxIdleTime>
             </connector>
           </connectors>
-          <webAppSourceDirectory>${project.build.directory}/${pom.artifactId}-${pom.version}</webAppSourceDirectory>
+          <webAppSourceDirectory>${project.build.directory}/${project.artifactId}-${project.version}</webAppSourceDirectory>
           <contextPath>/</contextPath>
         </configuration>
       </plugin>
@@ -66,6 +66,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.all.version>1.0-SNAPSHOT</project.all.version>
+    <project.groupId>CustomerWeb</project.groupId>
     <jdk.version>1.8</jdk.version>
     <javax.version>7.0</javax.version>
     <spring-version>4.2.0.RELEASE</spring-version>

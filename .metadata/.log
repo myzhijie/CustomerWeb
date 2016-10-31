@@ -1,0 +1,85 @@
+!SESSION 2016-10-31 08:42:33.721 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/jing/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/jing/.eclipse_keyring
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2016-10-31 08:52:25.543
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2016-10-31 08:53:10.169
+!MESSAGE Connection to http://www.caucho.com/eclipse/digest.zip failed on Network is unreachable. Retry attempt 0 started
+!STACK 0
+java.net.SocketException: Network is unreachable
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:86)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-10-31 08:53:52.456
+!MESSAGE Invalid site reference %updateSiteURL in feature com.pramati.eclipse.feature.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-10-31 08:53:52.473
+!MESSAGE Invalid site reference %updateSiteURL in feature com.pramati.eclipse.feature.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2016-10-31 08:53:52.474
+!MESSAGE Invalid site reference %updateSiteURL in feature com.pramati.eclipse.feature.
+
+!ENTRY org.eclipse.jdt.core 4 1006 2016-10-31 09:47:24.653
+!MESSAGE /Users/jing/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2016-10-31 09:47:24.656
+!MESSAGE /Users/jing/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2016-10-31 09:47:24.657
+!MESSAGE /Users/jing/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2016-10-31 09:47:24.657
+!MESSAGE /Users/jing/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2016-10-31 09:47:24.657
+!MESSAGE /Users/jing/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2016-10-31 09:47:24.658
+!MESSAGE /Users/jing/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2016-10-31 09:47:24.659
+!MESSAGE /Users/jing/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-10-31 09:51:20.956
+!MESSAGE Could not resolve artifact ${project.groupId}:util:pom:1.0-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact ${project.groupId}:util:pom:1.0-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openPomEditor(OpenPomAction.java:243)
+	at org.eclipse.m2e.core.ui.internal.actions.OpenPomAction.openEditor(OpenPomAction.java:218)
+	at org.eclipse.m2e.editor.xml.PomHyperlinkDetector$6$1.run(PomHyperlinkDetector.java:616)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing ${project.groupId}:util:pom:1.0-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2016-10-31 09:51:20.957
+!MESSAGE Could not resolve artifact ${project.groupId}:util:pom:1.0-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2016-10-31 09:51:20.957
+!MESSAGE Missing ${project.groupId}:util:pom:1.0-SNAPSHOT
