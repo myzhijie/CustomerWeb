@@ -1,0 +1,20 @@
+name: Run Shell Command
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-shell:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run shell command
+        run: |
+          echo "Running shell command..."
+          # Your shell command here
+          ls -la
