@@ -13,4 +13,4 @@ jobs:
         run: echo "current_time=$(date +"%Y-%m-%d %H:%M:%S")" >> $GITHUB_ENV
 
       - name: Use output variable
-        run: echo "The current time is ${{ steps.step1.outputs.current_time }}"
+        run: echo "The current time is ${{ current_time }}"
