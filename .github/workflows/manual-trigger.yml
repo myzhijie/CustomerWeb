@@ -8,10 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - name: Set output variable
+        id: step1
+        run: echo "current_time=$(date +"%Y-%m-%d %H:%M:%S")" >> $GITHUB_ENV
 
-      - name: Run a shell command
-        run: 
-          current_time=$(date)
-          echo "Current time ${date}"
+      - name: Use output variable
+        run: echo "The current time is ${{ steps.step1.outputs.current_time }}"
