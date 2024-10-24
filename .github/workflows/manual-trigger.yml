@@ -14,4 +14,4 @@ jobs:
       - name: Run a shell command
         run: 
           current_time=$(date)
-          echo "Current time $current_time"
+          echo "Current time ${date}"
